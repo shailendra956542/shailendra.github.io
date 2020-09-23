@@ -1,0 +1,283 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+header{
+    width: 100%;
+    height: 300vh;
+    background-color:rgb(189, 136, 66) ;
+    background-image: linear-gradient( to left,  #20daf3 0% ,rgb(255, 255, 255));
+    position: relative;
+}
+
+
+
+
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.logo a{
+    color: rgb(54, 150, 167);
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.menu ul li{
+    list-style: none;
+           display: inline-block;
+    padding: 0 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(228, 67, 67);
+    text-transform: capitalize;
+}
+
+.active, ul li :hover{
+    
+    border-bottom: 2px solid #b92525;
+}
+
+.contact a{
+    background-color: violet;
+    padding: 8px 10px;
+    font-style: 14px;
+    font-weight: 600;
+    border-radius: 25px;
+    background:none;
+    border: 3px solid rgb(218, 208, 72);
+    text-transform: capitalize;
+}
+
+.contact a:hover{
+    background: linear-gradient(to bottom, #3baed1 0%,  #82cfee 100%)
+}
+
+.phool{
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.phool h3{
+    color: rgb(235, 144, 144);
+    font-family: serif;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 10px;
+    justify-content: center;
+   /* z-index: 1;*/
+}
+
+.arun a{
+    position: absolute;
+    font-style: initial;
+    background-color: violet;
+    top: 10%;
+    left: 5%;
+    padding: 8px 10px;
+    font-style: 14px;
+    font-weight: 600;
+    border: 3px solid rgb(218, 208, 72);
+    border-radius: 25px;
+    background: none;
+    text-transform: capitalize;
+   
+}
+
+.arun a:hover{
+    background: linear-gradient(to bottom, #31cec9 0%,  #59acc5 100%)
+    
+}
+
+.shailendra a{
+    position: absolute;
+    background-color: violet;
+    top: 10%;
+    left: 78%;
+    padding: 8px 10px;
+    font-style: 14px;
+    font-weight: 600;
+    border: 3px solid rgb(218, 208, 72);
+    border-radius: 25px;
+    background: none;
+    text-transform: capitalize;
+}
+.shailendra a:hover{
+    background: linear-gradient(to bottom, #c87dcf 0%,  #e45dbb 100%)
+}
+
+.Youtube a{
+    position: absolute;
+    top: 17%;
+    left: 45%;
+    padding: 8px 10px;
+    font-style: normal;
+    font-weight: 600;
+    border: 3px solid rgb(218, 208, 72);
+    border-radius: 25px;
+    background: none;
+    text-transform: capitalize;
+
+}
+.Youtube a:hover{
+background: linear-gradient(to bottom, #31cec9 0%,  #59acc5 100%)
+}
+
+
+.pyar{
+    position: absolute;
+    background-color: violet;
+    top: 24.5%;
+    left: 32%;
+    padding: 8px 10px;
+    font-style: 14px;
+    font-weight: 600;
+    border: 3px solid rgb(218, 208, 72);
+    border-radius: 25px;
+    background: none;
+    text-transform: capitalize;
+}
+
+.pyar a{
+    position: absolute;
+    background-color: violet;
+    top: 0%;
+    left: -25%;
+    padding: 8px 10px;
+    font-style: 14px;
+    font-weight: 600;
+    border: 3px solid rgb(218, 208, 72);
+    border-radius: 25px;
+    background: none;
+    text-transform: capitalize; 
+}
+.pyar a:hover{
+    background: linear-gradient(to bottom, #feffff 29%,  #c5599c 100%)
+    }
+    
+
+.logo img{
+    position: absolute;
+    border-radius: 222px;
+    top: 20%;
+    left: 79%;
+    padding: 12px 14px;
+    
+}
+
+.qwerty{
+    position: absolute;
+    background-color: violet;
+    top: 28%;
+    left: 32%;
+    padding: 8px 10px;
+    font-style: 14px;
+    font-weight: 600;
+    border: 3px solid rgb(218, 208, 72);
+    border-radius: 25px;
+    background: none;
+    text-transform: capitalize;
+}
+
+.qwerty a{
+    position: absolute;
+    top: 0%;
+    left: -25%;
+    padding: 8px 10px;
+    font-style: 14px;
+    font-weight: 600;
+    border: 3px solid rgb(218, 208, 72);
+    border-radius: 25px;
+    background: none;
+    text-transform: capitalize; 
+}
+
+.qwerty a:hover{
+    background: linear-gradient(to bottom, #feffff 22%,  #000000 100%)
+    }
+    
+.image {
+    position: absolute;
+    top: 8cm;
+    left: 2cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
